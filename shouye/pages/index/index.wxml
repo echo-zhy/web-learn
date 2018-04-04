@@ -1,5 +1,12 @@
 <view>
-  <image class="banner" src='../../images/banner.jpg'></image>
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000">    
+      <block wx:for="{{movies}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+ </swiper>   
+  <!-- <image class="banner" src='../../images/banner.jpg'></image> -->
   <!-- 首页导航栏 -->
 <view class="btn-area">
   <view class="btn-img">

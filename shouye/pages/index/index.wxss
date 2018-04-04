@@ -1,7 +1,15 @@
-.banner{
+/* .banner{
   width:750rpx;
   height: 300rpx;
 
+} */
+.swiper {
+  height: 300rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
 }
 /* 导航 */
  .btn-area{
@@ -44,9 +52,7 @@ navigator{
   width:170rpx ;
   height:158rpx ;
 }
-.main{
-  overflow: hidden
-}
+
 /* 字体样式 */
 text{
   display:block;
