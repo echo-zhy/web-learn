@@ -1,0 +1,80 @@
+.banner{
+  width:750rpx;
+  height: 300rpx;
+
+}
+/* 导航 */
+ .btn-area{
+   width:750rpx;
+   height: 164rpx; 
+   background-color: #3f4144;
+ 
+} 
+.btn-img,.btn-link{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.btn-img image{
+  margin-left: 58rpx;
+  margin-top: 20rpx;
+  width: 82rpx;
+  height: 82rpx;
+}
+navigator{
+  color: white;
+  font-size: 28rpx;
+  width: 82rpx; 
+  margin-left: 58rpx;
+  text-align: center;
+}
+.navigator-hover{
+  color: #e5034f;
+}
+
+
+/* 主体 */
+.one,.two,.three{
+  height: 155rpx;
+  border-bottom: 1px solid #dddddd;
+  padding: 30rpx 0 30rpx 30rpx;
+}
+.main image{
+  width:170rpx ;
+  height:158rpx ;
+}
+.main{
+  overflow: hidden
+}
+/* 字体样式 */
+text{
+  display:block;
+  font-size: 28rpx;
+}
+.txt-price{
+  color: #d24a58;
+  margin-top: 22rpx;
+}
+.txt-beizhu{
+  font-size: 24rpx;
+  color: #aaaaaa;
+}
+.txt-yuyue{
+  color: #ffffff;
+  border: 1px solid #d24a58;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: #d24a58;
+  margin: 28rpx 40rpx;
+}
+/* 浮动布局 */
+ .image-a,.word,.txt-yuyue{
+ float: left;
+} 
+.word{
+  margin-left: 20rpx;
+}

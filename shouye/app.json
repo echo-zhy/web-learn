@@ -1,0 +1,49 @@
+{
+  "pages": [
+    
+   
+    "pages/index/index"
+  
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "美容",
+    
+    "backgroundTextStyle": "light"
+  },
+ "tabBar": {
+  "position": "bottom",
+  "color":"#000000",
+  "selectedColor": "#d24a58",
+  "borderStyle":"white",
+  "backgroundColor": "#f6f6f7",
+ 
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/btm-a.png",
+      "selectedIconPath": "images/btm-aa.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "技师",
+      "iconPath": "images/btm-b.png",
+      "selectedIconPath": "images/btm-bb.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "images/btm-c.png",
+      "selectedIconPath": "images/btm-cc.png"
+    }
+  ]
+},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

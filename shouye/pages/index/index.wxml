@@ -1,0 +1,67 @@
+<view>
+  <image class="banner" src='../../images/banner.jpg'></image>
+  <!-- 首页导航栏 -->
+<view class="btn-area">
+  <view class="btn-img">
+  <image src='../../images/top-a.jpg'></image>
+  <image src='../../images/top-b.jpg'></image>
+  <image src='../../images/top-c.jpg'></image>
+  <image src='../../images/top-d.jpg'></image>
+  <image src='../../images/top-e.jpg'></image>
+</view>
+<view class="btn-link">
+  <navigator url=" " hover-class="navigator-hover">推荐</navigator>
+  <navigator url=" " hover-class="navigator-hover">美甲</navigator>
+  <navigator url=" " hover-class="navigator-hover">美容</navigator>
+  <navigator url=" " hover-class="navigator-hover">美发</navigator>
+  <navigator url=" " hover-class="navigator-hover">美睫</navigator>
+  </view>
+  </view>
+
+<!-- 主体部分 -->
+<view class='main'>
+
+<view class='one'>
+
+<image class="image-a" src='../../images/center-a.jpg'></image>
+
+<view class='word'>
+<text class='txt-name'>秋季自然特价美甲</text>
+<text class='txt-price'>价格：￥198</text>
+<text class='txt-beizhu'>我们追求的是没有最长只有更长！</text>
+</view>
+
+<text class='txt-yuyue'>预约</text>
+</view>
+
+
+
+<view class='two'>
+
+<image class="image-a" src='../../images/center-b.jpg'></image>
+
+<view class='word'>
+<text class='txt-name'>睫毛稀疏 种睫毛来帮忙</text>
+<text class='txt-price'>价格：￥1888</text>
+<text class='txt-beizhu'>我们追求的是没有最长只有更长！</text>
+</view>
+
+<text class='txt-yuyue'>预约</text>
+</view>
+
+<view  class='three'>
+<image class="image-a" src='../../images/center-c.jpg'></image>
+
+<view class='word'>
+<text class='txt-name'>爱丽克EircParisSalon</text>
+<text class='txt-price'>价格：￥1588</text>
+<text class='txt-beizhu'>我们追求的是没有最长只有更长！</text>
+</view>
+
+<text class='txt-yuyue'>预约</text>
+</view>
+
+</view>
+
+
+</view>
